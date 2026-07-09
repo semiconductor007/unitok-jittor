@@ -1,0 +1,14 @@
+data_root: data/demo
+output_dir: outputs
+epochs: 2
+batch_size: 4
+lr: 0.001
+image_size: 64
+hidden_dim: 128
+latent_dim: 64
+num_codebooks: 4
+codebook_size: 64
+lambda_vq: 1.0
+log_interval: 1
+seed: 0
+
